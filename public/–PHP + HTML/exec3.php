@@ -1,6 +1,6 @@
 <?php
-// Definição da variável com o nome da imagem
-$imagem = "foto.jpg"; // coloque o nome do arquivo da sua imagem
+
+$imagem = "foto.jpg"; 
 ?>
 
 <!DOCTYPE html>
@@ -11,7 +11,7 @@ $imagem = "foto.jpg"; // coloque o nome do arquivo da sua imagem
 </head>
 <body>
     <h1>Exibindo Imagem com PHP</h1>
-    <!-- PHP dentro do atributo -->
+   
     <img src="<?php echo $imagem; ?>" alt="Imagem dinâmica" width="300">
 </body>
 </html>

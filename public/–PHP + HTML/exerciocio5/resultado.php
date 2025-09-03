@@ -1,8 +1,8 @@
 <?php
-// Recebendo os dados enviados pelo formulário
 $nome = $_POST['nome'];
 $email = $_POST['email'];
 ?>
+
 
 <!DOCTYPE html>
 <html lang="pt-br">

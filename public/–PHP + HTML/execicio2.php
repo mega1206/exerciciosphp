@@ -1,6 +1,6 @@
 <?php
-// Definição da variável nota
-$nota = 8; // Altere esse valor para testar (0 a 10)
+
+$nota = 8; 
 ?>
 
 <!DOCTYPE html>
@@ -12,7 +12,7 @@ $nota = 8; // Altere esse valor para testar (0 a 10)
 <body>
     <h1>Resultado</h1>
     <?php
-        // Estrutura condicional
+      
         if ($nota >= 7) {
             echo "<p>Aluno aprovado ✅</p>";
         } else {
